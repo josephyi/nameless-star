@@ -1,0 +1,24 @@
+{
+  "name": "nameless-star",
+  "version": "1.0.0",
+  "description": "Videogame Trivial Alexa Skill",
+  "main": "src/index.js",
+  "repository": "https://github.com/josephyi/nameless-star.git",
+  "author": "<joe@josephyi.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.3.0",
+    "rollup-plugin-babel": "^2.7.1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "scripts": {
+    "build": "yarn install && rollup -c",
+    "deploy": "serverless deploy",
+    "lint": "eslint src/*.js; true"
+  }
+}
