@@ -1,2 +1,2 @@
 # nameless-star
-Videogame Trivia Alexa Skill
+Fullerton City Guide Alexa Skill
